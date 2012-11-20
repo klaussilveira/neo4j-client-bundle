@@ -1,0 +1,24 @@
+{
+    "name": "klaussilveira/neo4j-client-bundle",
+    "description": "This bundle provides a simple integration of Josh Adell's Neo4jPHP library into Symfony2",
+    "type": "symfony-bundle",
+    "keywords": ["neo4j", "graph", "database"],
+    "homepage": "https://github.com/klaussilveira/neo4j-client-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Klaus Silveira",
+            "email": "klaussilveira@php.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "everyman/neo4jphp": ">=0.1.0"
+    },
+    "target-dir": "Neo4j/Client/ClientBundle",
+    "autoload": {
+        "psr-0": {
+            "Neo4j\\Client\\ClientBundle": ""
+        }
+    }
+}
